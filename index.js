@@ -2,8 +2,8 @@ module.exports = function (variants) {
     return function({ addUtilities }) {
         const containerBreak = {
             '.container-break': {
-                'margin-left': '50% !important',
-                'margin-right': '0 !important',
+                'margin-left': '50%',
+                'margin-right': '0',
                 'transform': 'translateX(-50%)',
                 'width': '100vw',
             },
